@@ -3,7 +3,7 @@
 
 DROP table if exists cats;
 CREATE table cats (
-    id BIGINT GENERATED ALWAYS AS IDENTITY,
+   id BIGINT GENERATED ALWAYS AS IDENTITY,
     name VARCHAR NOT NULL,
     type VARCHAR NOT NULL,
     url VARCHAR NOT NULL,
